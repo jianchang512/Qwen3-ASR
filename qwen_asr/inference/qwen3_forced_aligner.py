@@ -25,7 +25,7 @@ from qwen_asr.core.transformers_backend import (
     Qwen3ASRForConditionalGeneration,
     Qwen3ASRProcessor,
 )
-from transformers import AutoConfig, AutoModel, AutoProcessor
+from transformers4576 import AutoConfig, AutoModel, AutoProcessor
 
 from .utils import (
     AudioLike,

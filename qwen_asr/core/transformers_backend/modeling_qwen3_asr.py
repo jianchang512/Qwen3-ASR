@@ -21,24 +21,24 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from transformers.activations import ACT2FN
-from transformers.cache_utils import Cache, DynamicCache
-from transformers.generation import GenerationMixin
-from transformers.integrations import use_kernel_forward_from_hub
-from transformers.masking_utils import create_causal_mask
-from transformers.modeling_flash_attention_utils import FlashAttentionKwargs
-from transformers.modeling_layers import GradientCheckpointingLayer
-from transformers.modeling_outputs import (
+from transformers4576.activations import ACT2FN
+from transformers4576.cache_utils import Cache, DynamicCache
+from transformers4576.generation import GenerationMixin
+from transformers4576.integrations import use_kernel_forward_from_hub
+from transformers4576.masking_utils import create_causal_mask
+from transformers4576.modeling_flash_attention_utils import FlashAttentionKwargs
+from transformers4576.modeling_layers import GradientCheckpointingLayer
+from transformers4576.modeling_outputs import (
     BaseModelOutput,
     BaseModelOutputWithPast,
     MoeCausalLMOutputWithPast,
 )
-from transformers.modeling_rope_utils import ROPE_INIT_FUNCTIONS, dynamic_rope_update
-from transformers.modeling_utils import ALL_ATTENTION_FUNCTIONS, PreTrainedModel
-from transformers.processing_utils import Unpack
-from transformers.utils import auto_docstring, can_return_tuple
-from transformers.utils.deprecation import deprecate_kwarg
-from transformers.utils.generic import TransformersKwargs, check_model_inputs
+from transformers4576.modeling_rope_utils import ROPE_INIT_FUNCTIONS, dynamic_rope_update
+from transformers4576.modeling_utils import ALL_ATTENTION_FUNCTIONS, PreTrainedModel
+from transformers4576.processing_utils import Unpack
+from transformers4576.utils import auto_docstring, can_return_tuple
+from transformers4576.utils.deprecation import deprecate_kwarg
+from transformers4576.utils.generic import TransformersKwargs, check_model_inputs
 
 from .configuration_qwen3_asr import (
     Qwen3ASRAudioEncoderConfig,

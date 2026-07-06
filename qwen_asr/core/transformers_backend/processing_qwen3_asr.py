@@ -16,10 +16,10 @@ import re
 
 import numpy as np
 
-from transformers.audio_utils import AudioInput
-from transformers.feature_extraction_utils import BatchFeature
-from transformers.processing_utils import ProcessingKwargs, ProcessorMixin
-from transformers.tokenization_utils_base import TextInput
+from transformers4576.audio_utils import AudioInput
+from transformers4576.feature_extraction_utils import BatchFeature
+from transformers4576.processing_utils import ProcessingKwargs, ProcessorMixin
+from transformers4576.tokenization_utils_base import TextInput
 
 
 class Qwen3ASRProcessorKwargs(ProcessingKwargs, total=False):

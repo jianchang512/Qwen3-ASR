@@ -29,8 +29,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers.feature_extraction_utils import BatchFeature
-from transformers.models.whisper import WhisperFeatureExtractor
+from transformers4576.feature_extraction_utils import BatchFeature
+from transformers4576.models.whisper import WhisperFeatureExtractor
 
 from vllm.config import MultiModalConfig, ModelConfig, SpeechToTextConfig, VllmConfig
 from vllm.config.multimodal import BaseDummyOptions
